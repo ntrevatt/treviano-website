@@ -1,4 +1,5 @@
 
+/* --- Existing styles, now with additions below --- */
 body {
   font-family: 'Roboto', sans-serif;
   margin: 0;
@@ -40,6 +41,17 @@ a {
   background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2));
   padding: 1.5rem 2rem;
   border-radius: 10px;
+  max-width: 90%;
+}
+
+.banner-text h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.banner-text p {
+  font-size: 1.3rem;
+  margin: 0;
 }
 
 .main-nav {
@@ -181,4 +193,19 @@ footer {
   font-size: 0.8rem;
   color: #aaa;
   margin-top: 0.3rem;
+}
+
+/* --- Responsive styling for smaller screens --- */
+@media (max-width: 600px) {
+  .banner-text h1 {
+    font-size: 1.8rem;
+  }
+
+  .banner-text p {
+    font-size: 1.1rem;
+  }
+
+  .form-container iframe {
+    height: 1600px;
+  }
 }
