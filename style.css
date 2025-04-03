@@ -198,11 +198,15 @@ footer {
 /* --- Responsive styling for smaller screens --- */
 @media (max-width: 768px) {
   .banner-text h1 {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
+    line-height: 1.2;
   }
 
   .banner-text p {
-    font-size: 1.1rem;
+    font-size: 1rem;
+    line-height: 1.4;
+    max-width: 90%;
+    margin: 0 auto;
   }
 
   .form-container iframe {
