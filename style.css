@@ -196,7 +196,7 @@ footer {
 }
 
 /* --- Responsive styling for smaller screens --- */
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .banner-text h1 {
     font-size: 1.8rem;
   }
