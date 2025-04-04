@@ -1,3 +1,4 @@
+
 body {
   font-family: 'Roboto', sans-serif;
   margin: 0;
@@ -184,7 +185,6 @@ footer {
   margin-top: 0.3rem;
 }
 
-/* Mobile fixes */
 @media (max-width: 768px) {
   .banner-text {
     max-width: 100% !important;
@@ -214,4 +214,18 @@ footer {
   .form-container iframe {
     height: 1600px;
   }
+}
+
+.qualifications {
+  font-size: 0.9rem;
+  font-style: italic;
+  color: #666;
+  margin-top: 0.1rem;
+}
+
+
+.page-content {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
 }
